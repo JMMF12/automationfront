@@ -1,0 +1,24 @@
+{
+  "name": "automationfront",
+  "version": "1.0.0",
+  "description": "reto automation frontend tyba",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e",
+    "execution": "cypress run"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "frontend"
+  ],
+  "author": "José Martínez",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.9.0",
+    "esbuild": "^0.17.15",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  }
+}
