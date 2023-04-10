@@ -15,4 +15,4 @@ Use "git clone https://github.com/JMMF12/automationfront.git"
 ## 🔧 Construcciòn
 - Framework Cypress + Cucumber
 - Lenguaje Javascript
-- Patrón POM
+- Patrón de diseño POM
